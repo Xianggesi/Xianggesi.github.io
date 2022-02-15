@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Hexo常见命令</title>
+      <link href="/2022/02/14/hello/"/>
+      <url>/2022/02/14/hello/</url>
+      
+        <content type="html"><![CDATA[<blockquote><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1></blockquote><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"> &gt;hexo n <span class="string">&quot;我的博客&quot;</span> == hexo new <span class="string">&quot;我的博客&quot;</span> <span class="comment">#新建⽂章</span></span><br><span class="line">&gt;hexo p == hexo publish</span><br><span class="line">&gt;hexo g == hexo generate<span class="comment">#⽣成</span></span><br><span class="line">&gt;hexo s == hexo server <span class="comment">#启动服务预览</span></span><br><span class="line">&gt;hexo d == hexo deploy<span class="comment">#部署</span></span><br><span class="line">&gt;</span><br><span class="line">&gt;hexo server <span class="comment">#Hexo 会监视⽂件变动并⾃动更新，您⽆须重启服务器。</span></span><br><span class="line">&gt;hexo server -s <span class="comment">#静态模式</span></span><br><span class="line">&gt;hexo server -p 5000 <span class="comment">#更改端⼝</span></span><br><span class="line">&gt;hexo server -i 192.168.1.1 <span class="comment">#⾃定义 IP</span></span><br><span class="line">&gt;hexo clean <span class="comment">#清除缓存 ⽹⻚正常情况下可以忽略此条命令</span></span><br><span class="line">&gt;hexo g <span class="comment">#⽣成静态⽹⻚</span></span><br><span class="line">&gt;hexo d <span class="comment">#开始部署</span></span><br><span class="line">&gt;</span><br><span class="line">&gt;hexo generate <span class="comment">#使⽤ Hexo ⽣成静态⽂件快速⽽且简单</span></span><br><span class="line">&gt;hexo generate --watch <span class="comment">#监视⽂件变动</span></span><br><span class="line">&gt;</span><br><span class="line">&gt;两个命令的作⽤是相同的</span><br><span class="line">&gt;hexo generate --deploy</span><br><span class="line">&gt;hexo deploy --generate</span><br><span class="line">&gt;</span><br><span class="line">&gt;hexo new <span class="string">&quot;postName&quot;</span> <span class="comment">#新建⽂章</span></span><br><span class="line">&gt;hexo new page <span class="string">&quot;pageName&quot;</span> <span class="comment">#新建⻚⾯</span></span><br><span class="line">&gt;hexo generate <span class="comment">#⽣成静态⻚⾯⾄public⽬录</span></span><br><span class="line">&gt;hexo server <span class="comment">#开启预览访问端⼝（默认端⼝4000，&#x27;ctrl + c&#x27;关闭server）</span></span><br><span class="line">&gt;hexo deploy <span class="comment">#将.deploy⽬录部署到GitHub</span></span><br><span class="line">&gt;hexo new [layout] &lt;title&gt;</span><br><span class="line">&gt;hexo new photo <span class="string">&quot;My Gallery&quot;</span></span><br><span class="line">&gt;hexo new <span class="string">&quot;Hello World&quot;</span> --lang tw</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习，小白 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/02/13/hello-world/"/>
       <url>/2022/02/13/hello-world/</url>

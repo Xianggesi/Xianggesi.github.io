@@ -59,6 +59,9 @@
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
   </div>
 
@@ -80,6 +83,14 @@
 
 
 
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home"><a href="/" rel="section"><i class="home fa-fw"></i>首页</a></li>
+        <li class="menu-item menu-item-tags"><a href="/tags/" rel="section"><i class="tags fa-fw"></i>标签</a></li>
+        <li class="menu-item menu-item-categories"><a href="/categories/" rel="section"><i class="th fa-fw"></i>分类</a></li>
+        <li class="menu-item menu-item-commonweal"><a href="/404/" rel="section"><i class="heartbeat fa-fw"></i>公益</a></li>
+  </ul>
+</nav>
 
 
 
@@ -113,6 +124,8 @@
 
         <div class="site-overview-wrap sidebar-panel">
           <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Xianggesi"
+      src="/images/heet.jpg">
   <p class="site-author-name" itemprop="name">Xianggesi</p>
   <div class="site-description" itemprop="description">个人博客</div>
 </div>
@@ -120,9 +133,19 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
@@ -159,10 +182,85 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://xianggesi.github.io/2022/02/14/hello/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/heet.jpg">
+      <meta itemprop="name" content="Xianggesi">
+      <meta itemprop="description" content="个人博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="简单的一个博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/02/14/hello/" class="post-title-link" itemprop="url">Hexo常见命令</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2022-02-14 16:57:01 / 修改时间：17:38:27" itemprop="dateCreated datePublished" datetime="2022-02-14T16:57:01+08:00">2022-02-14</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/test/" itemprop="url" rel="index"><span itemprop="name">test</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <blockquote>
+<h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1></blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"> &gt;hexo n <span class="string">&quot;我的博客&quot;</span> == hexo new <span class="string">&quot;我的博客&quot;</span> <span class="comment">#新建⽂章</span></span><br><span class="line">&gt;hexo p == hexo publish</span><br><span class="line">&gt;hexo g == hexo generate<span class="comment">#⽣成</span></span><br><span class="line">&gt;hexo s == hexo server <span class="comment">#启动服务预览</span></span><br><span class="line">&gt;hexo d == hexo deploy<span class="comment">#部署</span></span><br><span class="line">&gt;</span><br><span class="line">&gt;hexo server <span class="comment">#Hexo 会监视⽂件变动并⾃动更新，您⽆须重启服务器。</span></span><br><span class="line">&gt;hexo server -s <span class="comment">#静态模式</span></span><br><span class="line">&gt;hexo server -p 5000 <span class="comment">#更改端⼝</span></span><br><span class="line">&gt;hexo server -i 192.168.1.1 <span class="comment">#⾃定义 IP</span></span><br><span class="line">&gt;hexo clean <span class="comment">#清除缓存 ⽹⻚正常情况下可以忽略此条命令</span></span><br><span class="line">&gt;hexo g <span class="comment">#⽣成静态⽹⻚</span></span><br><span class="line">&gt;hexo d <span class="comment">#开始部署</span></span><br><span class="line">&gt;</span><br><span class="line">&gt;hexo generate <span class="comment">#使⽤ Hexo ⽣成静态⽂件快速⽽且简单</span></span><br><span class="line">&gt;hexo generate --watch <span class="comment">#监视⽂件变动</span></span><br><span class="line">&gt;</span><br><span class="line">&gt;两个命令的作⽤是相同的</span><br><span class="line">&gt;hexo generate --deploy</span><br><span class="line">&gt;hexo deploy --generate</span><br><span class="line">&gt;</span><br><span class="line">&gt;hexo new <span class="string">&quot;postName&quot;</span> <span class="comment">#新建⽂章</span></span><br><span class="line">&gt;hexo new page <span class="string">&quot;pageName&quot;</span> <span class="comment">#新建⻚⾯</span></span><br><span class="line">&gt;hexo generate <span class="comment">#⽣成静态⻚⾯⾄public⽬录</span></span><br><span class="line">&gt;hexo server <span class="comment">#开启预览访问端⼝（默认端⼝4000，&#x27;ctrl + c&#x27;关闭server）</span></span><br><span class="line">&gt;hexo deploy <span class="comment">#将.deploy⽬录部署到GitHub</span></span><br><span class="line">&gt;hexo new [layout] &lt;title&gt;</span><br><span class="line">&gt;hexo new photo <span class="string">&quot;My Gallery&quot;</span></span><br><span class="line">&gt;hexo new <span class="string">&quot;Hello World&quot;</span> --lang tw</span><br></pre></td></tr></table></figure>
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
     <link itemprop="mainEntityOfPage" href="http://xianggesi.github.io/2022/02/13/hello-world/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/heet.jpg">
       <meta itemprop="name" content="Xianggesi">
       <meta itemprop="description" content="个人博客">
     </span>
