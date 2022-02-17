@@ -4,11 +4,61 @@
   
     
     <entry>
+      <title>github-file</title>
+      <link href="/2022/02/16/github-file/"/>
+      <url>/2022/02/16/github-file/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> git </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Next主题添加Valine评论系统</title>
+      <link href="/2022/02/16/next%20Valine%20/"/>
+      <url>/2022/02/16/next%20Valine%20/</url>
+      
+        <content type="html"><![CDATA[<ul><li><h1 id="指定文章（页面）评论功能是否开启"><a href="#指定文章（页面）评论功能是否开启" class="headerlink" title="指定文章（页面）评论功能是否开启"></a>指定文章（页面）评论功能是否开启</h1></li></ul><p><em>在 Hexo 博客中，评论的功能是在所有页面都默认开启的，但是有的时候我们在页面上不需要显示评论功能，例如分类，标记页面我们并不需要评论功能。</em></p><p>我们可以在 Front-matter 中通过comments属性设置true或false控制该页面或者是文章的评论功能是否打开，如我设置标签页面的评论功能关闭：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: 标签</span><br><span class="line">date: 2019-07-18 15:16:50</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">comments: false</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Valine </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Valine </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>next样式</title>
       <link href="/2022/02/15/hexo-style/"/>
       <url>/2022/02/15/hexo-style/</url>
       
-        <content type="html"><![CDATA[<ul><li><h1 id="next-样式"><a href="#next-样式" class="headerlink" title="next 样式"></a>next 样式</h1></li></ul><blockquote><p>NexT 主题的 CSS 文件在 themes&#x2F;next&#x2F;source&#x2F;css&#x2F; 目录下，文件的后缀是 .styl。可以在该目录下创建自己的样式文件，然后将自定义的样式添加到里面就可以了；也可以直接添加到 NexT 自身的 CSS 文件里，例如 themes&#x2F;next&#x2F;&gt;source&#x2F;css&#x2F;_common&#x2F;scaffolding&#x2F;base.styl。</p></blockquote><ul><li><h1 id="更改-Next-主题的样式"><a href="#更改-Next-主题的样式" class="headerlink" title="更改 Next 主题的样式"></a>更改 Next 主题的样式</h1></li></ul><blockquote><p>由于 Next 主题默认对所有图片都添加了 display: block; CSS 样式，这会导致 Waline 的表情包图片独立一行显示，需要往 Next 主题里添加以下自定义样式来解决，例如更改样式文件 themes&#x2F;next&#x2F;source&#x2F;css&#x2F;_common&#x2F;scaffolding&#x2F;base.styl</p></blockquote>]]></content>
+        <content type="html"><![CDATA[<ul><li><h1 id="next-样式"><a href="#next-样式" class="headerlink" title="next 样式"></a>next 样式</h1></li></ul><blockquote><p>NexT主题的CSS文件在 themes&#x2F;next&#x2F;source&#x2F;css&#x2F; 目录下，文件的后缀是 .styl。可以在该目录下创建自己的样式文件，然后将自定义的样式添加到里面就可以了；也可以直接添加到 NexT 自身的 CSS 文件里，例如 themes&#x2F;next&#x2F;&gt;source&#x2F;css&#x2F;_common&#x2F;scaffolding&#x2F;base.styl。</p></blockquote><ul><li><h1 id="更改-Next-主题的样式"><a href="#更改-Next-主题的样式" class="headerlink" title="更改 Next 主题的样式"></a>更改 Next 主题的样式</h1></li></ul><blockquote><p>由于 Next 主题默认对所有图片都添加了 display: block; CSS 样式，这会导致 Waline 的表情包图片独立一行显示，需要往 Next 主题里添加以下自定义样式来解决，例如更改样式文件 themes&#x2F;next&#x2F;source&#x2F;css&#x2F;_common&#x2F;scaffolding&#x2F;base.styl</p></blockquote>]]></content>
       
       
       <categories>
@@ -58,7 +108,7 @@
       <link href="/2022/02/14/Hexo/"/>
       <url>/2022/02/14/Hexo/</url>
       
-        <content type="html"><![CDATA[<ul><li><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">hexo n <span class="string">&quot;我的博客&quot;</span> == hexo new <span class="string">&quot;我的博客&quot;</span> <span class="comment">#新建⽂章</span></span><br><span class="line">hexo p == hexo publish</span><br><span class="line">hexo g == hexo generate<span class="comment">#⽣成</span></span><br><span class="line">hexo s == hexo server <span class="comment">#启动服务预览</span></span><br><span class="line">hexo d == hexo deploy<span class="comment">#部署</span></span><br><span class="line"></span><br><span class="line">hexo server <span class="comment">#Hexo 会监视⽂件变动并⾃动更新，您⽆须重启服务器。</span></span><br><span class="line">hexo server -s <span class="comment">#静态模式</span></span><br><span class="line">hexo server -p 5000 <span class="comment">#更改端⼝</span></span><br><span class="line">hexo server -i 192.168.1.1 <span class="comment">#⾃定义 IP</span></span><br><span class="line">hexo clean <span class="comment">#清除缓存 ⽹⻚正常情况下可以忽略此条命令</span></span><br><span class="line">hexo g <span class="comment">#⽣成静态⽹⻚</span></span><br><span class="line">hexo d <span class="comment">#开始部署</span></span><br><span class="line"></span><br><span class="line">hexo generate <span class="comment">#使⽤ Hexo ⽣成静态⽂件快速⽽且简单</span></span><br><span class="line">hexo generate --watch <span class="comment">#监视⽂件变动</span></span><br><span class="line"></span><br><span class="line">两个命令的作⽤是相同的</span><br><span class="line">hexo generate --deploy</span><br><span class="line">hexo deploy --generate</span><br><span class="line"></span><br><span class="line">hexo new <span class="string">&quot;postName&quot;</span> <span class="comment">#新建⽂章</span></span><br><span class="line">hexo new page <span class="string">&quot;pageName&quot;</span> <span class="comment">#新建⻚⾯</span></span><br><span class="line">hexo generate <span class="comment">#⽣成静态⻚⾯⾄public⽬录</span></span><br><span class="line">hexo server <span class="comment">#开启预览访问端⼝（默认端⼝4000，&#x27;ctrl + c&#x27;关闭server）</span></span><br><span class="line">hexo deploy <span class="comment">#将.deploy⽬录部署到GitHub</span></span><br><span class="line">hexo new [layout] &lt;title&gt;</span><br><span class="line">hexo new photo <span class="string">&quot;My Gallery&quot;</span></span><br><span class="line">hexo new <span class="string">&quot;Hello World&quot;</span> --lang tw</span><br></pre></td></tr></table></figure></li></ul><hr>]]></content>
+        <content type="html"><![CDATA[<ul><li><h1 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">hexo n <span class="string">&quot;我的博客&quot;</span> == hexo new <span class="string">&quot;我的博客&quot;</span> <span class="comment">#新建⽂章</span></span><br><span class="line">hexo p == hexo publish</span><br><span class="line">hexo g == hexo generate<span class="comment">#⽣成</span></span><br><span class="line">hexo s == hexo server <span class="comment">#启动服务预览</span></span><br><span class="line">hexo d == hexo deploy<span class="comment">#部署</span></span><br><span class="line"></span><br><span class="line">hexo server <span class="comment">#Hexo 会监视⽂件变动并⾃动更新，您⽆须重启服务器。</span></span><br><span class="line">hexo server -s <span class="comment">#静态模式</span></span><br><span class="line">hexo server -p 5000 <span class="comment">#更改端⼝</span></span><br><span class="line">hexo server -i 192.168.1.1 <span class="comment">#⾃定义 IP</span></span><br><span class="line">hexo clean <span class="comment">#清除缓存 ⽹⻚正常情况下可以忽略此条命令</span></span><br><span class="line">hexo g <span class="comment">#⽣成静态⽹⻚</span></span><br><span class="line">hexo d <span class="comment">#开始部署</span></span><br><span class="line"></span><br><span class="line">hexo generate <span class="comment">#使⽤ Hexo ⽣成静态⽂件快速⽽且简单</span></span><br><span class="line">hexo generate --watch <span class="comment">#监视⽂件变动</span></span><br><span class="line"></span><br><span class="line">两个命令的作⽤是相同的</span><br><span class="line">hexo generate --deploy</span><br><span class="line">hexo deploy --generate</span><br><span class="line"></span><br><span class="line">hexo new <span class="string">&quot;postName&quot;</span> <span class="comment">#新建⽂章</span></span><br><span class="line">hexo new page <span class="string">&quot;pageName&quot;</span> <span class="comment">#新建⻚⾯</span></span><br><span class="line">hexo generate <span class="comment">#⽣成静态⻚⾯⾄public⽬录</span></span><br><span class="line">hexo server <span class="comment">#开启预览访问端⼝（默认端⼝4000，&#x27;ctrl + c&#x27;关闭server）</span></span><br><span class="line">hexo deploy <span class="comment">#将.deploy⽬录部署到GitHub</span></span><br><span class="line">hexo new [layout] &lt;title&gt;</span><br><span class="line">hexo new photo <span class="string">&quot;My Gallery&quot;</span></span><br><span class="line">hexo new <span class="string">&quot;Hello World&quot;</span> --lang tw</span><br></pre></td></tr></table></figure></li><li><h1 id="自动部署脚本"><a href="#自动部署脚本" class="headerlink" title="自动部署脚本"></a>自动部署脚本</h1><blockquote><p>在根目录新建deploy.sh，输入以下内容：</p></blockquote><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/bash</span><br><span class="line">echo -e &quot;\033[0;32mDeploying updates to gitee...\033[0m&quot;</span><br><span class="line">hexo clean</span><br><span class="line">hexo g -d</span><br></pre></td></tr></table></figure></li></ul>]]></content>
       
       
       <categories>
